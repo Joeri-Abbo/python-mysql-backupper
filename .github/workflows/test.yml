@@ -32,5 +32,5 @@ jobs:
   dependabot:
     needs:
       - test
-    uses: tracefy/github-actions-workflows/.github/workflows/auto-merge.yaml@v1
+    uses: tracefy/github-actions-workflows/.github/workflows/auto-merge.yaml@v2
     secrets: inherit
