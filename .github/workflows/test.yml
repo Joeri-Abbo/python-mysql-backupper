@@ -29,8 +29,3 @@ jobs:
       - name: Test with pytest
         run: |
           pytest
-  dependabot:
-    needs:
-      - test
-    uses: tracefy/github-actions-workflows/.github/workflows/auto-merge.yaml@v2
-    secrets: inherit
